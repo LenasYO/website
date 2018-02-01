@@ -1,0 +1,16 @@
+$usedb = new UseDB();
+//$data = array('name'=>'aaa','age'=>25);
+//$res = $usedb->insert('users',$data);
+//var_dump($res);
+
+//$data = array('age'=>100);
+//$res = $usedb->where("WHERE `name`='ccc'")->update('users',$data);
+//var_dump($res);
+
+//$res = $usedb->where("WHERE `name`='ccc'")->delete('users');
+//var_dump($res);
+
+//$res = $usedb->select(array('*'))->where("WHERE `name`='aaa'")->getAll('users');
+//$res = $usedb->select(array('age'))->where("WHERE `name`='aaa'")->getAll('users');
+//$res = $usedb->select(array('*'))->getOne('users');
+//var_dump($res);
